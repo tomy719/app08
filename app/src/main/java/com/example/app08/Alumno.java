@@ -3,6 +3,7 @@ package com.example.app08;
 import java.util.ArrayList;
 
 public class Alumno {
+    private int id;
     private String carrera;
     private String nombre;
     private int img;
@@ -14,6 +15,10 @@ public class Alumno {
         this.nombre = nombre;
         this.img = img;
         this.matricula = matricula;
+    }
+
+    public Alumno() {
+
     }
 
     //encapsulamiento
@@ -47,6 +52,14 @@ public class Alumno {
 
     public void setMatricula(String matricula) {
         this.matricula = matricula;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     // funciones
