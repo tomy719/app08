@@ -18,7 +18,7 @@ public class AlumnoDbHelper extends SQLiteOpenHelper {
             DefineTabla.Alumnos.COLUMN_NAME_CARRERA + TEXT_TYPE + COMMA_SEP +
             DefineTabla.Alumnos.COLUMN_NAME_FOTO + INTIGER_TYPE + ")";
 
-    private static final String SQL_DELETE_ALUMNO = "DROP TABLE IF EXIST " +
+    private static final String SQL_DELETE_ALUMNO = "DROP TABLE IF EXISTS " +
             DefineTabla.Alumnos.TABLE_NAME;
 
     private static final String DATABASE_NAME = "sistema.db";
